@@ -1,0 +1,66 @@
+{
+  "business": {
+    "name": "Mashwi Singary | مشوي و سنجاري للمأكولات البحرية",
+    "phone": "+966 56 678 7639",
+    "whatsapp": "+966566787639",
+    "telegram": "",
+    "location": "Jarir St, Al Malaz, Riyadh 12831",
+    "googleMapsUrl": "https://maps.google.com/?q=Jarir+St,+Al+Malaz,+Riyadh+12831",
+    "googleMapsRating": "4.8",
+    "googleMapsReviews": "432",
+    "priceRange": "Mid-range",
+    "businessType": "Seafood Restaurant",
+    "tagline": "Savor Riyadh's Finest Fresh Seafood, Grilled to Perfection",
+    "heroDescription": "Premium grilled, fried, and fresh seafood dishes in the heart of Al Malaz",
+    "hours": {
+      "weekdays": "12:00 PM - 11:00 PM",
+      "weekends": "12:00 PM - 12:00 AM"
+    },
+    "reviews": [
+      { "name": "Ahmed Al-Rashid", "rating": 5, "text": "Best grilled fish in Riyadh! Fresh, flavorful, and excellent service every time." },
+      { "name": "Fatima Hassan", "rating": 5, "text": "The seafood platter is amazing. My family loves coming here for weekend dinners." },
+      { "name": "Mohammad S.", "rating": 5, "text": "Authentic taste, generous portions, and the butterfly shrimp is to die for!" }
+    ]
+  },
+  "products": {
+    "categories": [
+      {
+        "name": "Grilled Seafood",
+        "items": [
+          { "name": "Grilled Fish (Sea Bream)", "price": 65, "description": "Fresh sea bream, perfectly grilled with herbs", "image": "https://images.unsplash.com/photo-1534766555764-ce878a4e947d?w=600&h=400&fit=crop" },
+          { "name": "Grilled Fish (Tilapia)", "price": 55, "description": "Fresh tilapia grilled to perfection", "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=600&h=400&fit=crop" },
+          { "name": "Mixed Grilled Platter", "price": 95, "description": "Assorted grilled seafood selection", "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=600&h=400&fit=crop" }
+        ]
+      },
+      {
+        "name": "Fried Seafood",
+        "items": [
+          { "name": "Butterfly Shrimp", "price": 45, "description": "Crispy butterfly shrimp with special sauce", "image": "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?w=600&h=400&fit=crop" },
+          { "name": "Fried Fish Platter", "price": 60, "description": "Golden fried fish with rice and salad", "image": "https://images.unsplash.com/photo-1544592185-3a9c10b3d87b?w=600&h=400&fit=crop" }
+        ]
+      },
+      {
+        "name": "Soups & Specialties",
+        "items": [
+          { "name": "Seafood Cream Soup", "price": 25, "description": "Rich and creamy seafood soup", "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&h=400&fit=crop" },
+          { "name": "Seafood Stew", "price": 40, "description": "Traditional seafood stew with fresh catch", "image": "https://images.unsplash.com/photo-1603105037880-880cd4edfb0d?w=600&h=400&fit=crop" }
+        ]
+      }
+    ]
+  },
+  "services": {
+    "list": [
+      { "name": "Dine-in", "description": "Enjoy fresh seafood in our restaurant", "price": null },
+      { "name": "Takeaway", "description": "Order and pick up your favorite dishes", "price": null },
+      { "name": "Delivery", "description": "Available via aggregator platforms", "price": null }
+    ]
+  },
+  "designPreferences": {
+    "theme": "premium",
+    "colorScheme": "ocean",
+    "primaryColor": "#1e40af",
+    "accentColor": "#f59e0b",
+    "mobileFirst": true,
+    "fastLoad": true
+  }
+}
