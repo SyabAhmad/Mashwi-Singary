@@ -23,6 +23,7 @@ function Header({ business }) {
           <nav className="hidden md:flex space-x-8">
             <Link to="/" className="text-gray-700 hover:text-blue-900 transition-colors font-medium py-2">Home</Link>
             <Link to="/menu" className="text-gray-700 hover:text-blue-900 transition-colors font-medium py-2">Menu</Link>
+            <Link to="/about" className="text-gray-700 hover:text-blue-900 transition-colors font-medium py-2">About</Link>
             <Link to="/location" className="text-gray-700 hover:text-blue-900 transition-colors font-medium py-2">Location</Link>
           </nav>
 
@@ -34,7 +35,7 @@ function Header({ business }) {
               className="bg-blue-900 hover:bg-blue-800 text-white px-6 py-3 rounded-lg font-semibold transition-all shadow-md hover:shadow-lg flex items-center gap-2"
             >
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10 10-10-4.48-10-10z"/>
               </svg>
               Rate on Google
             </a>

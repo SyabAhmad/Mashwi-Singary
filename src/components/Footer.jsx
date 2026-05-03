@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 function Footer({ business }) {
   const reservationMessage = encodeURIComponent("Hi, I'd like to reserve a table.\n\nDate:\nTime:\nGuests:")
 
@@ -27,8 +29,8 @@ function Footer({ business }) {
           </div>
         </div>
 
-        <div className="border-t border-gray-800 pt-12">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-10">
+         <div className="border-t border-gray-800 pt-12">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-10 mb-10">
             <div>
               <h3 className="text-2xl font-bold mb-4" style={{ fontFamily: 'Playfair Display, serif' }}>
                 {business.name.split(' | ')[0]}
@@ -37,6 +39,21 @@ function Footer({ business }) {
                 {business.businessType} serving fresh seafood in the heart of Riyadh.
                 Premium quality, authentic taste.
               </p>
+            </div>
+
+            <div>
+              <h4 className="font-semibold mb-4 text-lg">Quick Links</h4>
+              <ul className="space-y-2 text-gray-400">
+                <li>
+                  <Link to="/about" className="hover:text-white transition-colors">About Us</Link>
+                </li>
+                <li>
+                  <Link to="/menu" className="hover:text-white transition-colors">Our Menu</Link>
+                </li>
+                <li>
+                  <Link to="/location" className="hover:text-white transition-colors">Visit Us</Link>
+                </li>
+              </ul>
             </div>
 
             <div>
