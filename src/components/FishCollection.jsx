@@ -26,7 +26,7 @@ function FishCollection({ products, business }) {
             >
               <div className="relative h-48 overflow-hidden bg-gradient-to-br from-blue-100 to-blue-50">
                 <img
-                  src={item.image || 'https://images.unsplash.com/photo-1534766555764-ce878a4e947d?w=600&h=400&fit=crop'}
+                  src={item.image || 'https://picsum.photos/id/312/600/400'}
                   alt={item.name}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   loading="lazy"
